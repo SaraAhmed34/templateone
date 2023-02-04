@@ -1,0 +1,190 @@
+/* start Box */
+.d-flex{
+    display:flex;
+}
+.d-grid{
+    display: grid;
+}
+.gab-20{
+    gap: 20px;;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+/* End Box */
+/* start display */
+.d-block{
+    display: block;
+}
+/* end display */
+/* Start Padding and Margin */
+.p-20{
+    padding:20px;
+}
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding:15px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.m-20{
+    margin:20px;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+/* End Padding and Margin */
+/* start color */
+.bg-white{
+    background-color: white;
+}
+.c-black{
+    color: black;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.c-grey{
+    color:grey;
+}
+.bg-blue{
+background-color:#0075ff;
+}
+.bg-orange{
+    background-color: #f59e0b;
+}
+.bg-green{
+    background-color: #22c55e;
+}
+.bg-red{
+    background-color: #f44336;
+}
+.bg-grey{
+    background-color: #ddd;
+}
+.bg-eee{
+    background-color: #eee;
+}
+.c-white{
+    color:white;
+}
+.c-red{
+    color:#f44336;
+}
+.c-blue{
+    color:#0075ff;
+}
+.c-orange{
+    color: #f59e0b;
+}
+.c-green{
+    color: #22c55e;
+}
+
+/* End color */
+/* Start Position */
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+/* End Position */
+/* Start font */
+.txt-c{
+    text-align: center;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fw-bold{
+    font-weight:bold;
+}
+/* End Font */
+/* Start border */
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+/* End border */
+/* Start Width */
+.w-full{
+    width:100%;
+}
+.w-fit{
+    width: fit-content;
+}
+/* End Width */
+/* Start border */
+.border-eee{
+    border: 1px solid #eee;
+}
+/* End border */
+/* Start Components */
+.between-flex{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.btn-shape{
+    padding: 4px 10px;
+    border-radius:6px;
+}
+.center-flex{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* End Components */
+@media (max-width:767px) {
+    .hide-mobile{
+        display:none;
+    }
+    .txt-c-mobile{
+        text-align: center;
+    }
+    .block-mobile{
+        display:block;
+    }
+    
+}
